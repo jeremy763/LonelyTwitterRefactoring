@@ -1,4 +1,4 @@
-package ca.ualberta.cs.lonelytwitter;
+package ca.ualberta.cs.lonelytwitter.ui;
 
 import java.util.Date;
 import java.util.List;
@@ -10,6 +10,10 @@ import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
+
+import ca.ualberta.cs.lonelytwitter.R;
+import ca.ualberta.cs.lonelytwitter.utility.TweetsFileManager;
+import ca.ualberta.cs.lonelytwitter.model.NormalLonelyTweet;
 
 public class LonelyTwitterActivity extends Activity {
 
